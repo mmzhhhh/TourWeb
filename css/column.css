@@ -1,0 +1,584 @@
+#headline{
+    height: 300px;
+    width: 100%;
+    min-width: 1263px;
+
+}
+
+.headline{
+    width: 1263px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+hgroup{
+    padding: 100px 0 0 150px;
+}
+
+.headline h2{
+    font-size: 45px;
+    color: #eee;
+    letter-spacing: 5px;
+}
+
+.headline p{
+    font-size: 20px;
+    color: #eee;
+    letter-spacing: 5px;
+}
+
+#container{
+    width: 1263px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.list{
+    float: left;
+    width: 900px;
+}
+
+.infos{
+    width: 900px;
+    height: 50px;
+    background: #eee;
+}
+
+.infos_left{
+    float: left;
+    line-height: 48px;
+    text-align: center;
+}
+
+.infos_left li{
+    display: inline-block;
+    width: 150px;
+    height: 48px;
+}
+
+.infos_left li a{
+    display: block;
+    color: #666;
+    cursor: pointer;
+}
+
+.infos_left li:first-child{
+    background: #fff;
+    position: relative;
+    border-top: 2px solid #458b00;
+    left: 1px;
+}
+
+.infos_right{
+    float: right;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.infos_right li{
+    display: inline-block;
+    width:60px;
+}
+
+.infos_right li a:hover,.infos_right li a.selected{
+    color:#fff;
+    background: #458b00;
+}
+
+.infos_right li a{
+    color: #666666;
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.tour{
+    width: 900px;
+    height: 231px;
+    margin-top: 20px;
+    position: relative;
+    border:1px solid #ccc;
+    color: #666666;
+}
+
+.tour img{
+    float: left;
+}
+
+.tour .description{
+    float: right;
+    width: 500px;
+    height: 200px;
+    padding: 10px 0 0 20px;
+}
+
+.description h3{
+    font-size: 24px;
+    width: 300px;
+    font-weight: normal;
+}
+
+.description p{
+    font-size: 14px;
+    line-height: 2;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.description ol li{
+    font-size: 16px;
+    width: 300px;
+    margin-top: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.description ol li mark{
+    color: #458b00;
+    border:1px solid #458b00;
+    padding: 0 5px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.description .type{
+    position: absolute;
+    background: #59b200;
+    color: #ffffff;
+    left: 0;
+    top: 0;
+    width: 80px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.description .disc{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 52px;
+    height: 52px;
+
+}
+
+.description .disc span{
+    display: block;
+    width: 52px;
+    height: 52px;
+    padding: 5px 0 0 0;
+    color: #ff7a4d;
+    font-size: 14px;
+    text-indent: 7px;
+    transform: rotate(45deg);
+}
+
+.description .buy{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+.buy .price{
+    color: #ff6600;
+    font-size: 20px;
+}
+
+.price strong{
+    font-size: 36px;
+}
+
+.price s{
+    color: #999;
+    font-size: 19px;
+}
+
+.buy .reserve a{
+    display: block;
+    background: #ff8800;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.buy .reserve a:hover{
+    background: lightblue;
+    color: black;
+    font-weight: bolder;
+}
+
+.description .footer{
+    width: 500px;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 20px;
+    position: absolute;;
+    bottom: 2px;
+    letter-spacing: 2px;
+    background: #fafafa;
+}
+
+.description .footer time{
+    color:cornflowerblue;
+}
+
+.list .more{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 20px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    background: #fafafa;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+}
+
+.sidebar{
+    float: right;
+    width: 340px;
+    color: #666;
+}
+
+.sidebox{
+    height: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.sidebox h3{
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    height: 48px;
+    line-height: 48px;
+    background: #fafafa;
+    text-align: left;
+    text-indent: 20px;
+    margin-bottom: 5px;
+}
+
+.sidebox li{
+    display: inline-block;
+    height: 45px;
+    width: 100px;
+    margin: 2px;
+    line-height: 45px;
+    color: #fff;
+    background: #eee;
+}
+
+.tag li a{
+    color: #999;
+    transition: .3s;
+}
+
+.tag li a:hover{
+    background: #458b00;
+    color: #eeeeee;
+    display: block;
+}
+
+.sidebox .figure{
+    width: 340px;
+    text-align: center;
+
+}
+
+.sidebox .figure figure:hover{
+    border:3px dashed #ff6600;
+}
+
+.figure figure{
+    display: inline-block;
+    padding: 5px;
+    transition: .3s;
+}
+
+.figure figcaption{
+    color: #666;
+}
+
+.box{
+    padding: 10px 0 10px 0;
+}
+
+.box a{
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-indent: 10px;
+    font-size: 16px;
+    display: inline-block;
+    color: #999;
+    margin: 2px;
+    transition: .3s;
+}
+
+.box a:hover{
+    border: 2px dashed black;
+}
+
+.treasure{
+    height: 170px;
+}
+
+.ticket{
+    font-size: 20px;
+    color: #666;
+}
+
+.ticket form h2{
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: normal;
+    padding: 5px 0 10px 0;
+    border-bottom: 1px dashed #999;
+}
+
+form .type{
+    margin: 20px 0 10px 0;
+}
+
+form .type span{
+    display: block;
+}
+
+form .type strong{
+    padding: 5px 10px;
+    background: #458b00;
+    color: #fff;
+    margin: 0 20px 0 10px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+form input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 0 0 0 12px;
+    padding: 5px;
+    outline: none;
+}
+
+.form{
+    line-height: 3;
+}
+
+.ticket form .left{
+    display: inline-block;
+    width: 43%;
+}
+
+.ticket form .center{
+    display: inline-block;
+    width: 43%;
+}
+
+.ticket form .right{
+    display: inline-block;
+    width: 9%;
+}
+
+.ticket form .right .submit{
+    width: 100px;
+    height: 100px;
+    background: #f60;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    bottom: 25px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border: none;
+    transition: .5s;
+}
+
+.ticket form .right .submit:hover{
+    background: lightblue;
+    color: black;
+}
+
+.list_news{
+    color:#666;
+}
+
+.list_news h2{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #999;
+    padding: 5px 0 10px 0;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.list_news ul{
+    margin: 10px 0 20px 0;
+}
+
+.list_news ul li{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.list_news ul li:first-child{
+    width: 120px;
+    height: 30px;
+}
+
+.list_news ul li:nth-child(2) a{
+    background: #458b00;
+    margin-left: -5px;
+    color:#fff;
+    border-radius: 3px;
+}
+
+.list_news ul li a{
+    color: #666;
+    display: block;
+    padding: 0 5px 0 5px;
+    text-align: center;
+}
+
+.list_news table{
+    border: 1px solid #ccc;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.list_news table tr:nth-child(2n){
+    background: #fafafa;
+}
+
+.list_news table tr:hover{
+    background: #eee;
+}
+
+.list_news table tr,.list_news table th{
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+}
+
+.list_news table tr .price{
+    color: #f60;
+    font-weight: bold;
+}
+
+.list_news table tr td .reserve{
+    display: inline-block;
+    background: #f60;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    transition: .5s;
+}
+
+.list_news table tr td .reserve:hover{
+    background: lightblue;
+    color: black;
+}
+
+.list_news table tr td .ticket_more{
+    color: #666;
+    transition: .5s;
+}
+
+.list_news table tr td .ticket_more:hover{
+    color: red;
+    font-size: 40px;
+}
+
+.list {
+    color: #666;
+}
+
+.list h2 {
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #666;
+    padding: 0 0 15px 0;
+}
+
+.scenery figure {
+    padding: 4px;
+    width: 433px;
+    border: 1px solid #ccc;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 3px 5px 0;
+}
+
+.scenery figure img {
+    vertical-align: middle;
+}
+
+.scenery  figcaption {
+    line-height: 1.5;
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+}
+
+.about h2{
+    font-size: 45px;
+}
+
+.about p{
+    text-indent: 2em;
+    padding: 10px 0 10px 0;
+    line-height: 2;
+}
+
+.about .address{
+    margin: 60px 0 0 0;
+}
+
+.address address{
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
